@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Anime List</h1>
+        <button id="toggleMode">Toggle Dark Mode</button>
+        <input type="text" id="search" placeholder="Search for anime...">
+    </header>
+    <main>
+        <div id="anime-container"></div>
+    </main>
+    <script src="script.js"></script>
+    <form id="add-anime-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="genres" placeholder="Genres (comma-separated)" required>
+        <input type="number" id="episodes" placeholder="Episodes" required>
+        <input type="url" id="image" placeholder="Image URL" required>
+        <button type="submit">Add Anime</button>
+    </form>
+    <form id="update-anime-form">
+        <input type="number" id="update-id" placeholder="Anime ID" required>
+        <input type="text" id="update-title" placeholder="Title">
+        <input type="text" id="update-genres" placeholder="Genres (comma-separated)">
+        <input type="number" id="update-episodes" placeholder="Episodes">
+        <input type="url" id="update-image" placeholder="Image URL">
+        <button type="submit">Update Anime</button>
+    </form>
+    <form id="delete-anime-form">
+        <input type="number" id="delete-id" placeholder="Anime ID" required>
+        <button type="submit">Delete Anime</button>
+    </form>
+</body>
+</html>
