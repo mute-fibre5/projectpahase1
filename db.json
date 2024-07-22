@@ -1,0 +1,39 @@
+{
+    "anime": [
+      {
+        "id": 1,
+        "title": "Jinki: Extend",
+        "genres": ["drama", "science fiction"],
+        "episodes": 12,
+        "image": "https://cdn.animenewsnetwork.com/thumbnails/fit200x200/encyc/A4658-7.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Naruto",
+        "genres": ["action", "adventure"],
+        "episodes": 220,
+        "image": "https://cdn.animenewsnetwork.com/thumbnails/fit200x200/encyc/A10-1.jpg"
+      },
+      {
+        "id": 3,
+        "title": "One Piece",
+        "genres": ["action", "adventure"],
+        "episodes": 1050,
+        "image": "https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece"
+      },
+      {
+        "id": 4,
+        "title": "Attack on Titan",
+        "genres": ["action", "drama"],
+        "episodes": 87,
+        "image": "https://cdn.animenewsnetwork.com/thumbnails/fit200x200/encyc/A22-1.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Fullmetal Alchemist",
+        "genres": ["action", "adventure"],
+        "episodes": 51,
+        "image": "https://cdn.animenewsnetwork.com/thumbnails/fit200x200/encyc/A15-1.jpg"
+      }
+    ]
+  }
